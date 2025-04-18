@@ -107,6 +107,7 @@ def z_LCL(T,P,q):
     Td = T - (100-RH)/5
     ## Now the LCL with another approximation from Lawrence et al. (2005)
     LCL = (T - Td)/8
+    return LCL
     
 def Estimated_Inversion_Strength(Ts, T_700, Ps, q, z700):
     ## First calculate the LTS
